@@ -1,13 +1,5 @@
-import { EtherealDepth } from "@/components/ui/ethereal-depth"
-import KovaPage from "@/components/ui/kova-hero"
+import LandingPage from "@/layouts/landing-page"
 
 export default function Home() {
-  return (
-    <main className="relative bg-[#020010]">
-      <EtherealDepth />
-      <div className="relative z-10">
-        <KovaPage />
-      </div>
-    </main>
-  )
+  return <LandingPage />
 }
